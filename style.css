@@ -5,10 +5,6 @@ body {
     margin: auto;
 }
 
-body {
-    background: linear-gradient(to bottom, #94d8ff, #ffffff);
-}
-
 h1 {
     font-size: 42px;
 }
@@ -17,11 +13,25 @@ h2 {
     font-size:20px;
 }
 
+h3 {
+    font-size: 36px;
+    text-align: left;
+}
+
 p {
     font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.left{
+    text-align: left;
+}
+
+.home{
+    background: linear-gradient(to bottom, #94d8ff, #ffffff);
 }
